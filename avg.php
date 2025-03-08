@@ -7,9 +7,14 @@ function srednia_zwykla (a,b)
 
 
 
-function srednia_wazona (a,b)
+function srednia_wazona (a,b, a_heavier =true
 {
-	return 0.3*a + 0.7*b
+	if (a_heavier)
+{
+	else
+	{
+		return 0.3*a + 0.7*b
+	}
 }
 
 ?>
